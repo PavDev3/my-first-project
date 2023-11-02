@@ -18,7 +18,7 @@ import { Housinglocation } from '../housinglocation';
       </form>
     </section>
     <section class="results">
-      <app-housing-location></app-housing-location>
+      <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
     </section>
   `,
   styleUrls: ['./home.component.css'],
@@ -27,7 +27,7 @@ import { Housinglocation } from '../housinglocation';
 export class HomeComponent {
   readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
 
-  housingLocations: Housinglocation = {
+  housingLocation: Housinglocation = {
     id: 9999,
     name: 'Casa de la pradera',
     city: 'Madrid',
