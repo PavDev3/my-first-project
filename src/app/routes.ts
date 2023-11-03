@@ -9,9 +9,9 @@ const routeConfing: Routes = [
         title: 'Home Page'
     },
     {
-        path: 'details/:id',
+        path: 'details/:id', 
         component: DetailsComponent,
-        title: 'Details Page'
+        title: 'Home details'
     }
 ]
 
