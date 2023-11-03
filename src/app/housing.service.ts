@@ -1,10 +1,15 @@
 import { Injectable } from '@angular/core';
 import { HousingLocation } from './housinglocation';
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class HousingService {
+
+  submitApplication(firstName: string, lastName: string, email: string) {
+    console.log(`Homes application submitted for ${firstName} ${lastName} at ${email}`)
+  }
 
   readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
 
