@@ -47,7 +47,7 @@
         },
         {
           "file": ".nx/cache/d/daemon.log",
-          "hash": "4724228118460276221"
+          "hash": "15324489710301632116"
         },
         {
           "file": ".nx/cache/d/server-process.json",
@@ -242,10 +242,14 @@
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "7351540142588327212"
+          "hash": "7463344435081318081"
         },
         {
           "file": ".nx/cache/project-graph.json",
+          "hash": "12735945020180355986"
+        },
+        {
+          "file": ".nx/cache/project-graph.json~52c0de0c",
           "hash": "12735945020180355986"
         }
       ]
