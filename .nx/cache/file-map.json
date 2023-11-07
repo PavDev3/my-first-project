@@ -36,22 +36,14 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
-      "my-first-project": [
+      "angular.io-example": [
         {
           "file": ".editorconfig",
           "hash": "6686520031028425313"
         },
         {
           "file": ".gitignore",
-          "hash": "13044518069027839699"
-        },
-        {
-          "file": ".nx/cache/d/daemon.log",
-          "hash": "3909432996941137030"
-        },
-        {
-          "file": ".nx/cache/d/server-process.json",
-          "hash": "9643865578262340861"
+          "hash": "12577810980498370537"
         },
         {
           "file": ".vscode/extensions.json",
@@ -72,6 +64,14 @@
         {
           "file": "README.md",
           "hash": "5619060144364065715"
+        },
+        {
+          "file": "angular.json",
+          "hash": "11932204675552897535"
+        },
+        {
+          "file": "db.json",
+          "hash": "5827384602194899022"
         },
         {
           "file": "nx.json",
@@ -137,7 +137,7 @@
         },
         {
           "file": "src/app/details/details.component.ts",
-          "hash": "3872629949561799363",
+          "hash": "1906211571853578610",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -151,7 +151,7 @@
         },
         {
           "file": "src/app/home/home.component.ts",
-          "hash": "17586075431787995134",
+          "hash": "10671935948037599628",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common"
@@ -163,7 +163,7 @@
         },
         {
           "file": "src/app/housing-location/housing-location.component.ts",
-          "hash": "13074261483385595475",
+          "hash": "11769734042196615617",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -172,7 +172,7 @@
         },
         {
           "file": "src/app/housing.service.ts",
-          "hash": "305404425565264572",
+          "hash": "1983909179842926480",
           "deps": [
             "npm:@angular/core"
           ]
@@ -231,26 +231,6 @@
         {
           "file": "tsconfig.spec.json",
           "hash": "15575553540147145788"
-        },
-        {
-          "file": ".nx/cache/lockfile.hash",
-          "hash": "8793751888756117560"
-        },
-        {
-          "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "16374580706370885346"
-        },
-        {
-          "file": ".nx/cache/file-map.json",
-          "hash": "12281747182837676598"
-        },
-        {
-          "file": ".nx/cache/project-graph.json",
-          "hash": "12735945020180355986"
-        },
-        {
-          "file": ".nx/cache/project-graph.json~52c0de0c",
-          "hash": "12735945020180355986"
         }
       ]
     }
