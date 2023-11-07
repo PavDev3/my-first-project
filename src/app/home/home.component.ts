@@ -13,9 +13,9 @@ import { HousingService } from '../housing.service';
   ],
   template: `
     <section>
-      <form>
-        <input type="text" placeholder="Filter by city" #filter>
-        <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
+      <form (submit)="onSubmit($event)">
+        <input type="text" placeholder="Buscar por ciudad" #filter>
+        <button class="primary" type="submit" (click)="filterResults(filter.value)">Buscar</button>
       </form>
     </section>
     <section class="results">
@@ -32,6 +32,18 @@ export class HomeComponent {
   housingLocationList: HousingLocation[] = [];
   housingService: HousingService = inject(HousingService);
   filteredLocationList: HousingLocation[] = [];
+
+  onSubmit(event: Event) {
+    event.preventDefault(); // Esto evita que la página se recargue al enviar el formulario
+    const inputElement = (event.target as HTMLFormElement).querySelector('input[type="text"]') as HTMLInputElement;
+    
+    if (inputElement) {
+      const filterValue = inputElement.value;
+      this.filterResults(filterValue); // Llama a la función filterResults con el valor del filtro
+    }
+  }
+  
+  
 
   constructor() {
     this.housingService.getAllHousingLocations().then((housingLocationList: HousingLocation[]) => {
